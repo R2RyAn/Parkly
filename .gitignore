@@ -128,3 +128,68 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+# Node.js dependencies
+node_modules/
+.pnp/
+.pnp.js
+
+# Build directories
+dist/
+build/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Editor-specific files
+.vscode/
+*.swp
+.idea/
+.DS_Store
+
+# Python-specific
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pkl
+*.pyc
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Python environment variables
+*.env
+*.env.*
+
+# Logs and output files
+*.log
+*.out
+*.pid
+
+# Compiled files
+*.so
+*.egg-info/
+.eggs/
+
+# Unit test and coverage
+coverage/
+*.coverage
+.cache/
+pytest_cache/
+htmlcov/
+.tox/
+
+# Other IDE or OS-specific files
+*.bak
+*.tmp
+Thumbs.db
