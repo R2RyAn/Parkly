@@ -1,0 +1,56 @@
+/* Navbar styles */
+.App-navbar {
+  display: flex;
+  justify-content: space-between; /* Align left and right sections */
+  align-items: center; /* Vertically center the links */
+  background-color: #f0f2f5; /* Light gray background */
+  padding: 10px 20px; /* Add padding to navbar */
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  position: sticky;
+  top: 0;
+  z-index: 10; /* Ensure it stays above other content */
+}
+
+/* Left section (Home button) */
+
+.App-navbar-left {
+  display: flex;
+  gap: 15px; /* Add spacing between links */
+}
+.App-navbar-left a {
+  text-decoration: none;
+  color: #dc2626; /* Blue link color */
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.App-navbar-left a:hover {
+  color: #dc2626; /* Darker blue on hover */
+}
+
+/* Right section (Login and Signup buttons) */
+.App-navbar-right {
+  display: flex;
+  gap: 15px; /* Add spacing between links */
+}
+
+.App-navbar-right a {
+  text-decoration: none;
+  color: #dc2626;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.App-navbar-right a:hover {
+  color: #dc2626;
+}
+.title {
+  position: relative;
+  color: #dc2626;
+}
+
+.HomePage-content {
+  max-width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
