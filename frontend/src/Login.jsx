@@ -1,7 +1,7 @@
 // src/Login.js
 import React, { useState } from "react";
 import { signInWithEmailAndPassword } from "firebase/auth";
-import { auth } from "./firebase";
+import { auth } from "./supabase";
 import { Link } from "react-router-dom";
 import logo from "./logo.png";
 
