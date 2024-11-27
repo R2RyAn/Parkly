@@ -12,7 +12,7 @@ Parkly is a web application designed to streamline the process of finding and re
 
 - **Frontend**: Developed using React, JavaScript, HTML, and TailWindCSS.
 - **Backend**: Built with Python, FastAPI.
-- **Database**: Utilizes a database system to store user and reservation data.
+- **Database**: Utilizes a database system to store user and reservation data: Supabase.
 
 ## Installation
 
